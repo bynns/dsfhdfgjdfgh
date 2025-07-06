@@ -53,7 +53,7 @@ const banSayaç = new Map(); // kullanıcı bazlı sayaç
 let sonSifirlama = Date.now(); // fallback
 let genelBanSayısı = 0;
 
-const sayaçDosyaYolu = "./banSayaç.json";
+const sayaçDosyaYolu = "./banSayac.json";
 
 if (fs.existsSync(sayaçDosyaYolu)) {
   const veri = JSON.parse(fs.readFileSync(sayaçDosyaYolu, "utf8"));
